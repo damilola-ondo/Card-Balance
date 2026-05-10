@@ -1,18 +1,18 @@
 
-import Appletv from './appletv.png';
-import Appleone from './appleone.png';
-import Applebook from './applebook.png';
-import Applenews from './applenews.png';
-import Appleicloud from './appleicloud.png';
-import Applefitness from './applefitness.png';
-import Applemusic from './applemusic.png';
-import Applemac from './applemac.png';
-import Applearcade from './applearcade.png';
-import Appleitunes3 from './appleitunes3.png';
-import Appleitunesblue from './appleitunesblue.png';
-import Appleitunes1 from './appleitunes1.png';
-import Appleitunes2 from './appleitunes2.png';
-import Appleblack from './appleblack.png';
+import Appletv from './Appletv.png';
+import Appleone from './Appleone.png';
+import Applebook from './Applebook.png';
+import Applenews from './Applenews.png';
+import Appleicloud from './Appleicloud.png';
+import Applefitness from './Applefitness.png';
+import Applemusic from './Applemusic.png';
+import Applemac from './Applemac.png';
+import Applearcade from './Applearcade.png';
+import Appleitunes3 from './Appleitunes3.png';
+import Appleitunesblue from './Appleitunesblue.png';
+import Appleitunes1 from './Appleitunes1.png';
+import Appleitunes2 from './Appleitunes2.png';
+import Appleblack from './Appleblack.png';
 
 
 export  {
