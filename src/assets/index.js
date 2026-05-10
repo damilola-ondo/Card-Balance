@@ -10,7 +10,7 @@ import Applemac from './Applemac.png';
 import Applearcade from './Applearcade.png';
 import Appleitunes3 from './Appleitunes3.png';
 import Appleitunesblue from './Appleitunesblue.png';
-import Appleitunes1 from './appleitunes1.png';
+import Appleitunes1 from './Appleitunes1.png';
 import Appleitunes2 from './Appleitunes2.png';
 import Appleblack from './Appleblack.png';
 
