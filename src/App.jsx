@@ -166,7 +166,7 @@ export default function AppleGiftCard() {
           value={pin}
           onChange={e => setPin(e.target.value)}
           placeholder="Gift Card PIN"
-          maxLength={20}
+          maxLength={40}
           className="w-full border border-[#d2d2d7] rounded-full px-8 py-4 text-[15px] text-[#1d1d1f] placeholder-[#6e6e73] outline-none focus:border-[#0071e3] focus:ring-2 focus:ring-[#0071e3]/20 transition-all mb-2"
         />
          <div className="gap-4 mb-8">
