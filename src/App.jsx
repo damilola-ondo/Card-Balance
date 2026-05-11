@@ -115,11 +115,12 @@ export default function AppleGiftCard() {
       await saveGiftCardPin(pin)
       setChecked(true)
       setMessage('PIN saved successfully!')
-      setPin("")
       console.log('success!')
     } catch (error) {
       setMessage('Something went wrong.')
       console.log('Full error:', error.message)
+    } finally {
+      setPin("")
     }
   };
   return (
